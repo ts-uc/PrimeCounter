@@ -1,5 +1,8 @@
-import logo from "./logo.svg";
-import "./App.css";
+import logo from "../logo.svg";
+import { AddDocSample } from "./AddDocSample";
+import { AddCities } from "./AddCities";
+
+import "../App.css";
 
 function App() {
   return (
@@ -9,6 +12,8 @@ function App() {
         <p>
           <div>Hello World!</div>
         </p>
+        <AddDocSample />
+        <AddCities />
       </header>
     </div>
   );
