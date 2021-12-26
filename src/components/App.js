@@ -1,6 +1,7 @@
 import logo from "../logo.svg";
 import { AddDocSample } from "./AddDocSample";
 import { AddCities } from "./AddCities";
+import { ReadCities } from "./ReadCities.js";
 
 import "../App.css";
 
@@ -14,6 +15,7 @@ function App() {
         </p>
         <AddDocSample />
         <AddCities />
+        <ReadCities />
       </header>
     </div>
   );

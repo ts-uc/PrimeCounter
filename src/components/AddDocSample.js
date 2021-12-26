@@ -13,16 +13,6 @@ export const AddDocSample = () => {
 
   const onClickAdd = async () => {
     await setDoc(doc(db, "counter", "counter"), {couter: 1});
-      /*
-    try {
-      const docRef = await addDoc(collection(db, "users"), {
-        name: nameText,
-      });
-      console.log("Document written with ID: ", docRef.id);
-    } catch (e) {
-      console.error("Error adding document: ", e);
-    }
-    */
   };
 
   return (
