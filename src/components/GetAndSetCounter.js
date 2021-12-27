@@ -1,9 +1,9 @@
 import React, { useState, useEffect } from "react";
-import { collection, doc, getDoc, setDoc } from "firebase/firestore";
+import { doc, getDoc, setDoc } from "firebase/firestore";
 import { db } from "../firebase";
 import "../App.css";
 
-export const ReadCities = () => {
+export const GetAndSetCounter = () => {
   const [counter, setCounter] = useState(-1);
   const docRef = doc(db, "counter", "counter");
 

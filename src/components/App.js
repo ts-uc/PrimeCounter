@@ -1,5 +1,5 @@
 import logo from "../logo.svg";
-import { ReadCities } from "./ReadCities.js";
+import { GetAndSetCounter } from "./GetAndSetCounter.js";
 import "../App.css";
 
 function App() {
@@ -7,10 +7,7 @@ function App() {
     <div className="App">
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          <div>Hello World!</div>
-        </p>
-        <ReadCities />
+        <GetAndSetCounter />
       </header>
     </div>
   );
