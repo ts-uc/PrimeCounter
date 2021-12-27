@@ -5,7 +5,10 @@ import { db } from "../firebase";
 import "../App.css";
 
 export const AddDocSample = () => {
-  const [nameText, setNameText] = useState("");
+  const [nameText, setNameText] = useState(-1);
+  const [count, setCount] = useState(-1);
+
+  useEffect(()=>{}, []);
 
   const onChangeName = (event) => {
     setNameText(event.target.value);
