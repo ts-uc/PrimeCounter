@@ -10,9 +10,10 @@
   color: white;
 }
 
-.Side{
+.Side {
   float: left;
-  background-color:#F0F0FF;
+  background-color: #f0f0ff;
+  border-right: solid 3px #ccc;
   width: 20%;
   min-height: 100vh;
 }
