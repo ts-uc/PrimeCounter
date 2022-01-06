@@ -15,7 +15,7 @@ function App() {
       <div className="App">
         <div className="Side">
           <ul>
-            <li><Link to="/">Home</Link></li>
+            <li><Link to="/">トップ</Link></li>
             <li><Link to="/profile">プロフィール</Link></li>
             <li><Link to="/products">創作物</Link></li>
           </ul>
