@@ -1,5 +1,4 @@
-import logo from "../logo.svg";
-import { GetAndSetCounter } from "./GetAndSetCounter.js";
+import { DefaultContent } from "./DefaultContent";
 import "../assets/App.css";
 
 function App() {
@@ -7,8 +6,7 @@ function App() {
     <div className="App">
       <div className="Side">サイドバーです</div>
       <div className="Content">
-        <img src={logo} className="App-logo" alt="logo" />
-        <GetAndSetCounter />
+        <DefaultContent />
       </div>
     </div>
   );
