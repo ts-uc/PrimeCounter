@@ -1,6 +1,6 @@
 import logo from "../logo.svg";
 import { GetAndSetCounter } from "./GetAndSetCounter.js";
-import "../App.css";
+import "../assets/App.css";
 
 function App() {
   return (
