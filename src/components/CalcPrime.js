@@ -22,8 +22,10 @@ export const CalcPrime = (props) => {
   }
 
   useEffect(() => {
-    setPrime(Prime(props.counter))
-  },[])
+    if(props.counter != -1){
+      props.setPrime(Prime(props.counter))
+    }
+  },[props.counter])
 
-  return <ShowPrime prime={prime} counter={props.counter}/>;
+  return <></>;
 };

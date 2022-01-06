@@ -3,7 +3,7 @@ import { ShowCounter } from "./ShowCounter";
 import { doc, getDoc, setDoc } from "firebase/firestore";
 import { db } from "../firebase";
 
-export const GetAndSetCounter = () => {
+export const GetAndSetCounter = (props) => {
   const [counter, setCounter] = useState(-1);
   const docRef = doc(db, "counter", "counter");
 
@@ -12,7 +12,7 @@ export const GetAndSetCounter = () => {
 
     if (docSnap.exists()) {
       console.log("Document data:", docSnap.data());
-      setCounter(docSnap.data().counter);
+      props.setCounter(docSnap.data().counter);
     } else {
       console.log("No such document!");
     }
@@ -20,10 +20,10 @@ export const GetAndSetCounter = () => {
 
   useEffect(async () => {
     console.log("counter");
-    if (counter != -1) {
-      await setDoc(doc(db, "counter", "counter"), { counter: counter + 1 });
+    if (props.counter != -1) {
+      await setDoc(doc(db, "counter", "counter"), { counter: props.counter + 1 });
     }
-  }, [counter]);
+  }, [props.counter]);
 
-  return <ShowCounter counter={counter} />;
+  return <></>;
 };
