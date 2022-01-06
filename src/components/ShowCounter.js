@@ -1,4 +1,3 @@
-import { CalcPrime } from "./CalcPrime";
 
 export const ShowCounter = (props) => {
   if (props.counter == -1) {
@@ -6,8 +5,9 @@ export const ShowCounter = (props) => {
   }
   return (
     <div>
+      <p>{props.prime}</p>
       <p>あなたは {props.counter} 番目のお客様です</p>
-      <CalcPrime counter={props.counter}/>
+      <p>{props.counter}番目の素数は、{props.prime}です。</p>
     </div>
   );
 };

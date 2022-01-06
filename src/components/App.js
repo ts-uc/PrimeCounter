@@ -8,7 +8,7 @@ import {
 import { Products } from "./Products";
 import { Profile } from "./Profile";
 import { Contact } from "./Contact"
-import { DefaultContent } from "./DefaultContent";
+import { Top } from "./Top";
 import "../assets/App.css";
 import { GetAndSetCounter } from "./GetAndSetCounter";
 import { CalcPrime } from "./CalcPrime"
@@ -34,7 +34,7 @@ function App() {
             <Route path="/profile" element={<Profile />} />
             <Route path="/products" element={<Products />} />
             <Route path="/contact" element={<Contact />} />
-            <Route path="/" element={<DefaultContent />} />
+            <Route path="/" element={<Top />} />
           </Routes>
         </div>
       </div>

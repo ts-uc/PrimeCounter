@@ -1,4 +1,5 @@
 import logo from "../assets/logo.svg";
+import { ShowCounter } from "./ShowCounter";
 
 export const DefaultContent = () => {
   return (
