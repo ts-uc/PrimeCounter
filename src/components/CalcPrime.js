@@ -1,9 +1,6 @@
-import React, { useState, useEffect } from "react";
-import { ShowPrime } from "./ShowPrime";
+import React, { useEffect } from "react";
 
 export const CalcPrime = (props) => {
-  const [prime, setPrime] = useState(-1);
-
   function Prime(n) {
     if (n < 1 || 1000000 < n) return 0;
     var iPrimes = new Array();

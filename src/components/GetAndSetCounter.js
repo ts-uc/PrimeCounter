@@ -1,10 +1,8 @@
-import React, { useState, useEffect } from "react";
-import { ShowCounter } from "./ShowCounter";
+import React, { useEffect } from "react";
 import { doc, getDoc, setDoc } from "firebase/firestore";
 import { db } from "../firebase";
 
 export const GetAndSetCounter = (props) => {
-  const [counter, setCounter] = useState(-1);
   const docRef = doc(db, "counter", "counter");
 
   useEffect(async () => {

@@ -15,6 +15,7 @@
 }
 
 .Content{
+  background-image: url(woodtexture.gif);
   float: right;
   min-height: 100vh;
   width:80%;
@@ -22,8 +23,9 @@
 
 .Side {
   float: left;
-  background-color: #f0f0ff;
-  border-right: solid 3px #ccc;
+  background-image: url(woodtexture_side.gif);
+
+  border-right: solid 3px #999;
   width: 20%;
   min-height: 100vh;
 }
