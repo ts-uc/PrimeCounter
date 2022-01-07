@@ -21,7 +21,7 @@ export const BGM = () => {
   return (
     <div>
       <input type="checkbox" id="sound" name="sound" onChange={handleChange} />
-      <label for="sound">{bgmSwitch ? "+" : "-"}SOUND</label>
+      <label for="sound">BGM</label>
     </div>
   );
 };
