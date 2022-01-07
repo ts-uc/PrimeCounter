@@ -1,23 +1,27 @@
 import { Link } from "react-router-dom";
+import { BGM } from "../components/BGM";
 
 export const SideBar = () => {
   return (
-    <ul class="sidebar_content">
-      <li>
-        <Link to="/">トップ</Link>
-      </li>
-      <li>
-        <Link to="/profile">プロフィール</Link>
-      </li>
-      <li>
-        <Link to="/products">創作物</Link>
-      </li>
-      <li>
-        <Link to="/aboutthispage">このページについて</Link>
-      </li>
-      <li>
-        <Link to="/contact">CONTACT</Link>
-      </li>
-    </ul>
+    <>
+      <BGM />
+      <ul class="sidebar_content">
+        <li>
+          <Link to="/">トップ</Link>
+        </li>
+        <li>
+          <Link to="/profile">プロフィール</Link>
+        </li>
+        <li>
+          <Link to="/products">創作物</Link>
+        </li>
+        <li>
+          <Link to="/aboutthispage">このページについて</Link>
+        </li>
+        <li>
+          <Link to="/contact">CONTACT</Link>
+        </li>
+      </ul>
+    </>
   );
 };
