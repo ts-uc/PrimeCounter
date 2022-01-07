@@ -13,7 +13,7 @@ export const SideBar = () => {
         <Link to="/products">創作物</Link>
       </li>
       <li>
-        <Link to="/aboutthispage">このWebページについて</Link>
+        <Link to="/aboutthispage">このページについて</Link>
       </li>
       <li>
         <Link to="/contact">CONTACT</Link>

@@ -21,7 +21,7 @@ export const CounterMessage = () => {
     <div>
       <div>あなたは {counter} 番目のお客様です</div>
       <div>
-        {counter} 番目の素数は、 {prime} です。
+        {counter} 番目の素数は、 {prime} です↑
       </div>
     </div>
   );
