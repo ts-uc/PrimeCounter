@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import { CountContext } from "./App";
+import { CountContext } from "../pages/App";
 export const CounterDigital = () => {
   const { counter, prime } = useContext(CountContext);
   if (counter == -1) {

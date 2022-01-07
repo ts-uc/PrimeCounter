@@ -1,9 +1,9 @@
 import { Routes, Route } from "react-router-dom";
-import { Products } from "../pages/Products";
-import { Profile } from "../pages/Profile";
-import { Contact } from "../pages/Contact";
-import { AboutThisPage } from "../pages/AboutThisPage";
-import { Top } from "../pages/Top";
+import { Products } from "./Products";
+import { Profile } from "./Profile";
+import { Contact } from "./Contact";
+import { AboutThisPage } from "./AboutThisPage";
+import { Top } from "./Top";
 
 export const Content = () => {
   return (

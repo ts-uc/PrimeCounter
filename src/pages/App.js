@@ -3,8 +3,8 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import { SideBar } from "./SideBar";
 import { Content } from "./Content";
 import "../assets/App.css";
-import { GetAndSetCounter } from "./GetAndSetCounter";
-import { CalcPrime } from "./CalcPrime";
+import { GetAndSetCounter } from "../components/GetAndSetCounter";
+import { CalcPrime } from "../components/CalcPrime";
 
 export const CountContext = createContext();
 
