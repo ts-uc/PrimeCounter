@@ -5,6 +5,9 @@
 
 h1 {
   text-align: center;
+  font-style: italic;
+  color: #fff;
+  text-shadow: 0 0 10px #000;
 }
 
 .DefaultContent {
