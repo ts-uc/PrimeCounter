@@ -69,6 +69,26 @@ table {
   text-align: center;
 }
 
+.marquee_container {
+  overflow: hidden;
+}
+.marquee_text {
+  transform: translateX(100%);
+  animation: marquee 15s linear infinite;
+}
+@keyframes marquee {
+  0% {
+    -moz-transform: translateX(100%);
+    -webkit-transform: translateX(100%);
+    transform: translateX(100%);
+  }
+  100% {
+    -moz-transform: translateX(-100%);
+    -webkit-transform: translateX(-100%);
+    transform: translateX(-100%);
+  }
+}
+
 .CounterDigital {
   font-family: DigitalFont;
   background: black;

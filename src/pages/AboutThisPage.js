@@ -48,10 +48,20 @@ export const AboutThisPage = () => {
       </ul>
       <hr />
       <h2>背景画像について</h2>
-      <div>
-        <p>Wikimedia Commonsよりお借りしました</p>
-        <p>©2009 Joseph Francis CC-BY 2.0 Generic</p>
-      </div>
+      <ul>
+        <li>Wikimedia Commonsよりお借りしました</li>
+        <li>©2009 Joseph Francis CC-BY 2.0 Generic</li>
+      </ul>
+      <hr />
+      <h2>BGMについて</h2>
+      <ul>
+        <li>左上のチェックボックスで、BGMのオンオフができます。</li>
+        <li><a href="https://freesound.org/people/Jagadamba/sounds/387818/">音源はここよりお借りしました</a></li>
+        <li>©2017 Jagadamba CC-BY 3.0 Unported</li>
+      </ul>
+      <hr />
+      <h2>マウスのキラキラエフェクトについて</h2>
+      <ul><li><a href="http://www.mf2fm.com/rv/dhtmltinkerbell.php">ここよりお借りし、使用しています。</a></li></ul>
     </div>
   );
 };

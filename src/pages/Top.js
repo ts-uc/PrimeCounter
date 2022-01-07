@@ -9,7 +9,8 @@ export const Top = () => {
         <CounterDigital />
       </div>
       <CounterMessage />
-      <h1>T.U. のポートフォリオへようこそ</h1>
+      <h1>T.U. のポートフォリオ</h1>
+      <div class="marquee_container"><div class="marquee_text">ようこそ私のポートフォリオサイトへ。ゆっくりしていってください。</div></div>
       <figure>
         <img src={star_and_me} width="75%" />
         <figcaption>
