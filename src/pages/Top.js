@@ -12,7 +12,11 @@ export const Top = () => {
       <h1>T.U. のポートフォリオへようこそ</h1>
       <figure>
         <img src={star_and_me} width="75%" />
-        <figcaption>青森県弘前市りんご公園にて</figcaption>
+        <figcaption>
+          青森県弘前市りんご公園にて
+          <br />
+          中央に写っているのは、自分と、青森県最高峰の岩木山です。
+        </figcaption>
       </figure>
     </div>
   );
