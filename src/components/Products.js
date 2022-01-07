@@ -1,8 +1,8 @@
 export const Products = () => {
   return (
-    <>
-      <h1>Products</h1>
-      <h2>under construction</h2>
-    </>
+    <div className="contents_wrap">
+      <h1>創作物</h1>
+      <h2>工事中</h2>
+    </div>
   );
 };

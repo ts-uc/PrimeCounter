@@ -10,7 +10,10 @@ export const Top = () => {
       </div>
       <CounterMessage />
       <h1>T.U. のポートフォリオへようこそ</h1>
-      <img src={star_and_me} width="50%" />
+      <figure>
+      <img src={star_and_me} width="75%" />
+      <figcaption>青森県弘前市りんご公園にて</figcaption>
+      </figure>
     </div>
   );
 };

@@ -3,6 +3,10 @@
   src: url(DSEG14Classic-Regular.ttf);
 }
 
+h1 {
+  text-align: center;
+}
+
 .DefaultContent {
   text-align: center;
   background-color: #282c34;
@@ -26,6 +30,14 @@
   width: 80%;
 }
 
+.contents_wrap {
+  margin: 60px auto;
+  position: relative;
+  width: 90%;
+  max-width: 800px;
+  min-width: 500px;
+}
+
 .SideBar {
   float: left;
   background-image: url(woodtexture_side.gif);
@@ -33,6 +45,12 @@
   border-right: solid 3px #999;
   width: 20%;
   min-height: 100vh;
+}
+
+.sidebar_content li {
+  margin: 16px 3px;
+  padding: 3px 3px 3px 16px;
+  position: relative;
 }
 
 .Top {

@@ -1,9 +1,8 @@
 export const Profile = () => {
-    return (
-      <>
-        <h1>Profile</h1>
-        <h2>under construction</h2>
-      </>
-    );
-  };
-  
+  return (
+    <div className="contents_wrap">
+      <h1>プロフィール</h1>
+      <h2>工事中</h2>
+    </div>
+  );
+};
