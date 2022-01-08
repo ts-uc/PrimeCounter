@@ -1,5 +1,5 @@
 import { createContext, useState } from "react";
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
 import { SideBar } from "./SideBar";
 import { Content } from "./Content";
 import "../assets/App.css";
