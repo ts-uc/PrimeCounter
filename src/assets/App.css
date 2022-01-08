@@ -50,6 +50,12 @@ table {
   min-width: 500px;
 }
 
+.contents_wrap img{
+  display: block;
+  margin: 0 auto;
+  width: 75%;
+}
+
 .SideBar {
   float: left;
   background-image: url(240px-Balsa_Wood_Texture.jpg);
