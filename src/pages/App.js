@@ -11,7 +11,8 @@ export const CountContext = createContext();
 function App() {
   const [counter, setCounter] = useState(-1);
   const [prime, setPrime] = useState(-1);
-  const value = { counter, prime };
+  const [error, setError] = useState(false);
+  const value = { counter, prime, error };
   return (
     <BrowserRouter>
       <div className="App">
@@ -24,7 +25,7 @@ function App() {
           </CountContext.Provider>
         </div>
       </div>
-      <GetAndSetCounter counter={counter} setCounter={setCounter} />
+      <GetAndSetCounter counter={counter} setCounter={setCounter} setError={setError} />
       <CalcPrime counter={counter} setPrime={setPrime} />
     </BrowserRouter>
   );

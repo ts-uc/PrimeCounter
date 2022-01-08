@@ -1,8 +1,15 @@
 import React, { useContext } from "react";
 import { CountContext } from "../pages/App";
 export const CounterMessage = () => {
-  const { counter, prime } = useContext(CountContext);
-  if (counter == -1) {
+  const { counter, prime, error } = useContext(CountContext);
+  if (error) {
+    return (
+      <div>
+        <div>エラー</div>
+        <div>アクセス数データの取得に失敗しました</div>
+      </div>
+    );
+  } else if (counter == -1) {
     return (
       <div>
         <div>カウンター読み込み中…</div>

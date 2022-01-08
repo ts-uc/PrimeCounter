@@ -10,7 +10,7 @@ export const Top = () => {
       </div>
       <CounterMessage />
       <h1>T.U. のポートフォリオ</h1>
-      <div class="marquee_container"><div class="marquee_text">ようこそ私のポートフォリオサイトへ。ゆっくりしていってください。</div></div>
+      <div class="marquee_container"><div class="marquee_text">ようこそ T.U. のポートフォリオサイトへ。ゆっくりしていってください。</div></div>
       <figure>
         <img src={star_and_me} width="75%" />
         <figcaption>

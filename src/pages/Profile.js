@@ -52,6 +52,40 @@ export const Profile = () => {
           </td>
         </tr>
       </table>
+      <hr />
+      <h2>技術関係</h2>
+      <table>
+        <tr>
+          <th>扱える言語</th>
+          <td>Javascript, C++, Python</td>
+        </tr>
+        <tr>
+          <th>身につけている主な技術</th>
+          <td>React.js</td>
+        </tr>
+        <tr>
+          <th>現在学習中の技術</th>
+          <td>Ruby on Rails</td>
+        </tr>
+        <tr>
+          <th>主に使うOS</th>
+          <td>
+            GNU/Linux (デスクトップGNU/Linuxを10年ほど常用しています！）
+            <br />
+            現在使用中のディストリビューションは manjaro です
+          </td>
+        </tr>
+        <tr>
+          <th>好きなエディタ</th>
+          <td>
+            Visual Studio Code（ほぼメイン）, neovim（ターミナル環境で使用）
+          </td>
+        </tr>
+        <tr>
+          <th>好きなブラウザ</th>
+          <td>Firefox（ツリー型タブが手放せないんですよ）</td>
+        </tr>
+      </table>
     </div>
   );
 };
