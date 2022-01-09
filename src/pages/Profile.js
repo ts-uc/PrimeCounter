@@ -68,6 +68,10 @@ export const Profile = () => {
           <td>Ruby on Rails</td>
         </tr>
         <tr>
+          <th>コーディング能力</th>
+          <td>AtCoder緑</td>
+        </tr>
+        <tr>
           <th>主に使うOS</th>
           <td>
             GNU/Linux (デスクトップGNU/Linuxを10年ほど常用しています！）
