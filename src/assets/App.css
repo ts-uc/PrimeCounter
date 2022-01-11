@@ -3,6 +3,11 @@
   src: url(DSEG14Classic-Regular.ttf);
 }
 
+body {
+  overflow-x: hidden;
+  background-image: url(240px-Balsa_Wood_Texture.jpg);
+}
+
 h1 {
   text-align: center;
   font-style: italic;
@@ -36,7 +41,6 @@ table {
 }
 
 .Content {
-  background-image: url(240px-Balsa_Wood_Texture.jpg);
   float: right;
   min-height: 100vh;
   width: 80%;
@@ -50,7 +54,7 @@ table {
   min-width: 500px;
 }
 
-.contents_wrap img{
+.contents_wrap img {
   display: block;
   margin: 0 auto;
   width: 75%;
@@ -58,8 +62,6 @@ table {
 
 .SideBar {
   float: left;
-  background-image: url(240px-Balsa_Wood_Texture.jpg);
-
   border-right: solid 3px #999;
   width: 20%;
   min-height: 100vh;
