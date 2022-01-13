@@ -37,6 +37,10 @@
   }
 }
 
+.SideBar{
+  border-bottom: solid 3px #999;
+}
+
 body {
   overflow-x: hidden;
   background-image: url(240px-Balsa_Wood_Texture.jpg);
@@ -109,6 +113,7 @@ table {
   -webkit-font-smoothing: auto;
   font-size: 24px;
   padding: 5px 4px 0;
+  margin: 5px;
 }
 
 .App-logo {
