@@ -6,17 +6,17 @@
 @media screen and (min-width: 480px) {
   .App {
     display: flex;
+    flex-direction: row;
   }
 
   .Content {
-    float: right;
-    min-height: 100vh;
+    order: 2;
     width: 80%;
+    min-height: 100vh;
   }
 
   .SideBar {
-    background-color: #fff;
-    float: left;
+    order: 1;
     border-right: solid 3px #999;
     width: 20%;
     min-height: 100vh;
@@ -38,7 +38,7 @@
 }
 
 .SideBar{
-  border-bottom: solid 3px #999;
+  border-top: solid 3px #999;
 }
 
 body {

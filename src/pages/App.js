@@ -16,16 +16,20 @@ function App() {
   return (
     <BrowserRouter>
       <div className="App">
-        <nav className="SideBar">
-          <SideBar />
-        </nav>
         <div className="Content">
           <CountContext.Provider value={value}>
             <Content />
           </CountContext.Provider>
         </div>
+        <nav className="SideBar">
+          <SideBar />
+        </nav>
       </div>
-      <GetAndSetCounter counter={counter} setCounter={setCounter} setError={setError} />
+      <GetAndSetCounter
+        counter={counter}
+        setCounter={setCounter}
+        setError={setError}
+      />
       <CalcPrime counter={counter} setPrime={setPrime} />
     </BrowserRouter>
   );
